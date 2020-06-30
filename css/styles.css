@@ -10,7 +10,7 @@ body{
 }
 h1{
 
-    font-size:3rem;
+    font-size:3.5rem;
     line-height: 1.5;
 }
 
@@ -19,12 +19,47 @@ h1{
 
 }
 
-#rowTitle{
-    padding-bottom:4.5 rem;
+.navbar{
+    padding:0 0 4.5rem;
 }
 .nav-bar-brand{
     font-family:"Ubuntu";
     font-size:2.5rem;
     font-weight:bold;
 
+}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family:"Monstserrat-light";
+    font-size:"1.2rem";
+
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+
+.title-image{
+    width:"60%";
+    transform: rotate(25deg);
+}
+
+.icon{
+    color:#ff4c68;
+    
+}
+.icon:hover{
+    color :gray;
+}
+#features{
+    padding: 0 15px 15px 0;
+}
+#features p{
+    font-size: 1rem;
+    color:#d3d3d3;
 }
