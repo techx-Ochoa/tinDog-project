@@ -33,6 +33,14 @@ p{
 }
 
 
+.color-section{
+    background-color: #ff4c68;
+}
+
+.white-section{
+
+}
+
 .navbar{
     padding:0 0 4.5rem;
 }
@@ -56,12 +64,21 @@ p{
 .download-button{
     margin:5% 3% 5% 0%;
 }
+/* 
+title section */
+
 
 #title{
 
     background-color: #ff4c68;
     color:#fff;
     text-align: left;
+
+}
+
+/* for the container fluid class that is contained inside tht title */
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 .title-image{
     width:60%;
