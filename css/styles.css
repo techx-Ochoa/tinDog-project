@@ -1,17 +1,22 @@
 body{
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     text-align: center;
 }
-
-  
-.container-fluid{   
-    padding:15% 7% ;
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-bold";
 
 }
+
+p{
+    color:#8f8f8f;
+}
+
+
+
 
 /* HEADINGS */
 .big-heading{
-    font-family:'Montserrat-Black';
+    font-family:"Montserrat-Black";
     font-size:3.5rem;
     line-height: 1.5;
 }
@@ -21,43 +26,43 @@ body{
     line-height: 1.5;
 }
 
+
+
+.container-fluid{   
+    padding: 7% 15%;
+
+}
 /* section */
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Montserrat-bold';
 
-}
-
-p{
-    color:#8f8f8f;
-}
 
 
 .color-section{
     background-color: #ff4c68;
+    color:#fff;
 }
 
 .white-section{
-
+    background-color:#fff;
 }
 
 .navbar{
     padding:0 0 4.5rem;
 }
-.nav-bar-brand{
+.navbar-brand{
     font-family:"Ubuntu";
     font-size:2.5rem;
     font-weight:bold;
 
 }
-
+  
 
 .nav-item{
     padding: 0 18px;
 }
 .nav-link{
-    font-family:'Monstserrat-light';
-    font-size:"1.2rem";
+    font-family:"Montserrat-light";
+    font-size:1.2rem;
 
 }
 
@@ -68,17 +73,11 @@ p{
 title section */
 
 
-#title{
-
-    background-color: #ff4c68;
-    color:#fff;
-    text-align: left;
-
-}
 
 /* for the container fluid class that is contained inside tht title */
 #title .container-fluid {
     padding: 3% 15% 7%;
+    
 }
 .title-image{
     width:60%;
@@ -89,20 +88,13 @@ title section */
     right: 30%;
 }
 
-.icon{
-    color:#ff4c68;
-    margin-bottom: 1rem;
-}
-.icon:hover{
-    color :gray;
-}
+
 
 /*Feature section*/
 #features{
    
     position: relative;
-    background-color:#fff;
-    position: relative;
+    
   
 }
 .feature-title{
@@ -112,11 +104,18 @@ title section */
 
     padding:4.5%;
 }
+.icon{
+    color:#ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color : #ff4c68;
+}
 
 #testimonials{
   
 
-    background-color: #ff4c68;
+    background-color: #ef8172;
     color: #fff;
 }
 
@@ -131,9 +130,7 @@ title section */
     margin:20px;
 
 }
-.carousel-item{
 
-}
 #press{
     background-color: #ff4c68;
 
@@ -161,18 +158,6 @@ title section */
 
 }
 
-@media(max-width: 1028px ){
-
-    #title{
-        text-align: center;
-    }
-
-
-    .title-image{
-        position:static;
-        transform: rotate(0);
-    }
-}
 
 /*Footer*/
 #cta{
@@ -185,11 +170,21 @@ title section */
 
 /* Footer Section */
 
-#footer{
-    
-
-}
 
 .social-icon{
     margin: 20px 10px;
+}
+
+
+@media(max-width: 1028px ){
+
+    #title{
+        text-align: center;
+    }
+
+
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
 }
