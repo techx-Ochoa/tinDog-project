@@ -8,4 +8,5 @@ Tindog is a onepage website to provide details to users. The site describles sub
 The framework used is on bootstrap with components like cards, navbar, and buttons. The site required HTML, CSS, and both Google/Aweome fonts.
 
 # Gallery
-![Full page of Tindog](images/TinDogPFull page of Tindog.png)
+
+![TinDogPage](https://user-images.githubusercontent.com/22627414/173601482-0d7d4374-a7a1-4d35-afae-a74b2afff8a0.png)
